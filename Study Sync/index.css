@@ -1,5 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700&display=swap'); 
+
+:root{
+    --primary-color: #6366F1;
+    --accent-color: #3f83f8;
+    --text-color: #333333;
+    --link-color: #2563eb;
+    --background-color: #fffff;
+    --light-gray: #f0f0f0;
+    --gray: #808080;
+    --dark-gray: #555;
+}
+
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Inter', sans-serif;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--background-color);
+    padding: 2rem;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1280px;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo{
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 2rem;
+    gap: 0.625rem;
+}
+
+.logo-img{
+    height: 1.575rem;
+    width: 1.938rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    /* color: var(--gray); */
+}
+
+.nav-link{
+    color: var(--gray);
+    transform: 0.1s linear;
+}
+
+.nav-link:hover{
+    color: var(--link-color);
+}
+
+.contact-button{
+    background-color: var(--link-color);
+    padding: 1rem;
+    color: var(--light-gray);
+    transform: 0.1s linear;
+}
+
+.contact-button:hover{
+    background-color: var(--accent-color);
 }
