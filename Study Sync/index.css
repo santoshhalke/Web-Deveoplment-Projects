@@ -24,6 +24,9 @@ body{
     height: 100vh;
     background-color: var(--background-color);
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
 
 .header-content{
@@ -139,4 +142,28 @@ button{
 .tour-button{
     background-color: var(--dark-gray);
     padding: 1rem;
+}
+
+.company-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 2rem;
+    gap: 2rem;
+    /* border: 1px solid var(--gray); */
+    background-color: var(--light-gray);
+    border-radius: 1rem;
+}
+
+.vector-img{
+    height: 1.2rem;
+    width: 1.2rem;
 }
