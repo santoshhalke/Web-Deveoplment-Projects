@@ -73,3 +73,70 @@ body{
 .contact-button:hover{
     background-color: var(--accent-color);
 }
+
+.content{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.main-content{
+    display: flex;
+    max-width: 1280px;
+    gap: 3rem;
+}
+
+.content-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    animation: slideFromLeft 1s linear forwards;
+}
+
+@keyframes slideFromLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.intro{
+    color: var(--accent-color);
+}
+
+.heading{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.content-right{
+    width: 50%;
+}
+
+.content-right img{
+    height:40rem;
+    border-radius: 2rem;
+}
+
+button{
+    color: var(--light-gray);
+    border-radius: 0.61rem;
+}
+
+.start-button{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    margin-right: 2rem;
+}
+
+.tour-button{
+    background-color: var(--dark-gray);
+    padding: 1rem;
+}
