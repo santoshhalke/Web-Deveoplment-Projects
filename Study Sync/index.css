@@ -232,3 +232,69 @@ button{
 .inv{
     background-color: #44bfc3;
 }
+
+.testimonial-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 5rem;
+}
+
+.testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.test-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: 20rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.test-cards:hover{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.03);
+    border: 2px blue solid;
+}
+
+.experience-section{
+    font-size: small;
+}
+
+.avatar-section{
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar{
+    height: 5rem;
+    width: 5rem;
+}
+
+.profile{
+    text-align: center;
+}
+
+.test-names{
+    color: var(--primary-color);
+    font-size: 1.3rem;
+}
+
+.position{
+    font-size: 0.8rem;
+    color: var(--gray);
+}
