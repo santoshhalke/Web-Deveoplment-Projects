@@ -298,3 +298,86 @@ button{
     font-size: 0.8rem;
     color: var(--gray);
 }
+
+.newsletter-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+    gap: 2rem;
+    height: 40vh;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.newsletter-content{
+    border-radius: 1rem;
+    background-color: var(--light-gray);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 2rem;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.newsletter-left{
+    width: 50%;
+    height: 100%;
+}
+
+.newsletter-left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius:  1rem;
+}
+
+.newsletter-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.email-info{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.email-title{
+    color: var(--primary-color);
+    font-size: 2.8rem;
+}
+
+.email-content,
+.term-condition{
+    color: var(--gray);
+}
+
+.term-condition{
+    font-size: small;
+}
+
+.term-condition a{
+    text-decoration: underline;
+}
+
+.form-section .input-email{
+    padding: .4rem;
+}
+
+.contact-button{
+    background-color: var(--link-color);
+    padding: .5rem;
+    color: var(--light-gray);
+    transform: 0.1s linear;
+    border: none;
+}
