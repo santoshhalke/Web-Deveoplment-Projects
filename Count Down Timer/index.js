@@ -1,5 +1,5 @@
 const startDate = new Date().getTime();
-const goalDate = new Date("January 5, 2025 01:03:00").getTime();
+const goalDate = new Date("January 7, 2025 12:03:00").getTime();
 
 function updateCount(){
     
