@@ -4,7 +4,7 @@
     padding: 0px;
 }
 
-.user-part{
+#user-part{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,18 +13,32 @@
     gap: 1rem;
 }
 
-.result-part{
+#result-part{
     margin-top: 2rem;
     display: flex;
     gap: 2rem;
     justify-content: center;
 }
 
-.result-easy, 
-.result-medium,
-.result-hard{
-    background-color: black;
+.result{
+    background-color: #3e5947;
+    padding: .2rem;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.circle{
+    background: conic-gradient(#299f5d var(--progress-degree, 0%), #74937f 0%);
     height: 8rem;
     width: 8rem;
     border-radius: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
